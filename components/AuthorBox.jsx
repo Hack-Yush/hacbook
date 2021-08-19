@@ -6,7 +6,6 @@ import ABox from "../styles/components/AuthorBox.module.css";
 
 const authorimg1 = "/images/gayle-forman.jpg"
 
-
 export const AuthorBox = () => {
   return (
     <div className={ABox.box}>
