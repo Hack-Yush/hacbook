@@ -43,9 +43,7 @@ const Home = () => {
                                     <div className={HS.AW}>Award Winner</div>
                                     <div className={HS.SP}>Staff Picks</div>
                                 </div>
-                                <div className={HS.SM1}>
-                                    See All
-                                </div>
+                                <div className={HS.SM1}>See All</div>
                             </div>
                         </div>
                         <div className={HS.BoxSet}>

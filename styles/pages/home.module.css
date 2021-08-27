@@ -50,11 +50,13 @@
     height:400px;
     border-bottom: 0.1px solid rgb(165, 161, 161);
     width: 100%; 
+    display: flex;
+    align-items: center;
 }
 
 .heading{
    
-    height: 8%;
+    height: 5%;
     /* border: 1px solid rgb(0, 0, 0); */
     width: 100%;
    display: flex;
@@ -65,25 +67,33 @@
 
 .HBox{
     display: flex;
-    height: 90%;
     width: 40%;
     /* border: 1px solid red; */
+    cursor: pointer;
+    align-items: center;
+    /* justify-content:center */
 }
 
 .h1{
-    border-right: 0.1px solid rgb(165, 161, 161);
+    border-right: 2px solid #7d7d7d;
     font-weight: bold ;
     display: flex;
     justify-content: center;
-    width: 30%
+    width: 30%;
+    color: #bc3232;
+    
 }
 
 .h2{
-    border-right: 0.1px solid rgb(165, 161, 161);
+    border-right: 2px solid #7d7d7d;
     font-weight: bold ;
     width: 40%;
     display: flex;
     justify-content: center;
+    color: #7d7d7d;
+}
+.h2:hover{
+    color: #bc3232;
 }
 
 .h3{
@@ -91,12 +101,19 @@
     width: 30%;
     display: flex;
     justify-content: center;
+    color: #7d7d7d;
+}
+
+.h3:hover{
+    color: #bc3232;
 }
 
 .SM{
     position: relative;
     left: 50%;
-    font-weight: lighter ;
+    color: #08d;
+    font-size: small;
+    font-weight: bold;
 }
 
 /* Bestseller div */
@@ -104,29 +121,40 @@
     height:400px;
     border-bottom: 0.1px solid rgb(165, 161, 161);
     width: 100%; 
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
 }
 
 .HB{
     display: flex;
-    height: 90%;
+    
     width: 70%;
     /* border: 1px solid red; */
+    cursor: pointer;
+    align-items: center;
 }
 
 .NTB{
-    border-right: 0.1px solid rgb(165, 161, 161);
+    border-right: 2px solid #7d7d7d;
     font-weight: bold ;
     display: flex;
     justify-content: center;
-    width: 40%
+    width: 40%;
+    color: #bc3232;
 }
 
 .AW{
-    border-right: 0.1px solid rgb(165, 161, 161);
+    border-right: 2px solid #7d7d7d;
     font-weight: bold ;
     width: 30%;
     display: flex;
     justify-content: center;
+    color: #7d7d7d;
+    
+}
+.AW:hover{
+    color: #bc3232;
 }
 
 .SP{
@@ -134,12 +162,18 @@
     width: 20%;
     display: flex;
     justify-content: center;
+    color: #7d7d7d;
 }
 
+.SP:hover{
+    color: #bc3232;
+}
 .SM1{
     position: relative;
     left: 20%;
-    font-weight: lighter ;
+    color: #08d;
+    font-size: small;
+    font-weight: bold;
 }
 
 
@@ -148,19 +182,26 @@
     height:400px;
     border-bottom: 0.1px solid rgb(165, 161, 161);
     width: 100%; 
+    display: flex;
+    align-items: center;
 }
 .Bheading{
     font-weight: bold ;
     width: 30%;
     display: flex;
     justify-content: center;
+    color: #bc3232;
 }
+
+
 
 /* author box */
 .Author{
     height:400px;
     /* border-bottom: 0.1px solid rgb(165, 161, 161); */
-    width: 100%; 
+    width: 100%;
+    display: flex;
+    align-items: center; 
 }
 
 .Aheading{
@@ -168,5 +209,6 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    color: #bc3232;
 }
 
