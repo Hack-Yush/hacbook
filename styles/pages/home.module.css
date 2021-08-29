@@ -56,6 +56,7 @@
     /* align-items: center; */
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
 }
 
 .heading{
@@ -123,9 +124,11 @@
 
  .AC{
     height: 280px;
-    width: 100%;
+    width: 95%;
     /* display: flex; */
     /* border: 1px solid #000000; */
+    position: relative;
+    
 } 
 
 
