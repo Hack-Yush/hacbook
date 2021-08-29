@@ -27,8 +27,8 @@ const Footer = () => {
   return (
     <div className={FB.box}>
       <div className={FB.upperbox}>
-        <div class={FB.footer_lyks}>
-          <h3 class="links-heading">Company</h3>
+        <div className={FB.footer_lyks}>
+          <h3 className="links-heading">Company</h3>
           <div className={FB.company}>
 
 
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
 
-        <div class={FB.footer_lyks}>
+        <div className={FB.footer_lyks}>
           <h3 >Help</h3>
           <div className={FB.help}>
 
@@ -80,7 +80,7 @@ const Footer = () => {
 
 
 
-        <div class={FB.footer_lyks}>
+        <div className={FB.footer_lyks}>
           <h3 className={FB.Mischeading}>Misc</h3>
           <div className={FB.misc}>
             <ul >
@@ -91,7 +91,7 @@ const Footer = () => {
 
         </div>
 
-        <div class={FB.FollowBox} >
+        <div className={FB.FollowBox} >
           <h3 >
             <a className={FB.follow} style={{ color: "#08d", fontSize: "medium" }} href="https://www.bookswagon.com/sitemap">Follow Us</a>
           </h3>
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
 
       <div className={FB.middlebox}>
-        <div class={FB.addressdiv}> <strong style={address}>Address:</strong>
+        <div className={FB.addressdiv}> <strong style={address}>Address:</strong>
           SR Ecommerce Factory Pvt. Ltd., 2/14, ground floor , Ansari road , Daryaganj Delhi 110002
           <span style={address}>|</span>
           <strong style={address}>Email:</strong>

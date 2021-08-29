@@ -1,7 +1,7 @@
 .Box{
   height: 280px;
   width: 150px;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   display: flex;
   position: relative;
   flex-direction: column;

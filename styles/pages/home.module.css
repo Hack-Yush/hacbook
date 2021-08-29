@@ -7,6 +7,8 @@
     align-items: center;
 }
 
+
+/* *******************************************************************************body************************************************ */
 .book_container{
     position: relative;
     top: 140px;
@@ -23,7 +25,7 @@
 }
 
 .book_content{
-    width: 805px;
+    width: 850px;
     float: right;
     border-left: 0.1px solid rgb(195, 195, 195);
     display: block;
@@ -48,10 +50,12 @@
 
 .author{
     height:400px;
-    border-bottom: 0.1px solid rgb(165, 161, 161);
+    border-bottom: 1px solid rgb(165, 161, 161);
     width: 100%; 
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .heading{
@@ -114,7 +118,19 @@
     color: #08d;
     font-size: small;
     font-weight: bold;
+    cursor: pointer;
 }
+
+ .AC{
+    height: 280px;
+    width: 100%;
+    /* display: flex; */
+    /* border: 1px solid #000000; */
+} 
+
+
+
+
 
 /* Bestseller div */
 .Bestseller{
@@ -122,8 +138,10 @@
     border-bottom: 0.1px solid rgb(165, 161, 161);
     width: 100%; 
     /* border: 1px solid red; */
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
+    flex-direction: column
 }
 
 .HB{
@@ -174,6 +192,7 @@
     color: #08d;
     font-size: small;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -182,8 +201,11 @@
     height:400px;
     border-bottom: 0.1px solid rgb(165, 161, 161);
     width: 100%; 
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
+    flex-direction: column
 }
 .Bheading{
     font-weight: bold ;
@@ -198,10 +220,13 @@
 /* author box */
 .Author{
     height:400px;
-    /* border-bottom: 0.1px solid rgb(165, 161, 161); */
-    width: 100%;
+    
+    width: 100%; 
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    flex-direction: column
 }
 
 .Aheading{
@@ -212,3 +237,12 @@
     color: #bc3232;
 }
 
+
+/* *******************************************************************************footer************************************************ */
+.footer{
+    position: relative;
+    top: 140px;
+    height: 360px;
+    width: 100%;
+    /* border: 3px solid rgb(255, 0, 0) */
+}
