@@ -1,5 +1,5 @@
-// import {AuthorBox} from "../components/AuthorBox"
-import Footer from "../components/FooterBox"
+// import Footer from "../components/FooterBox"
+import {ProductBox} from "../components/ProductBox"
 const Testing = ()=>{
 
 const styles= {
@@ -15,7 +15,7 @@ const styles= {
     return(
 
         <div style={styles}>
-           {<Footer/>}
+           {<ProductBox/>}
         </div>
     )
 }

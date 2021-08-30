@@ -38,7 +38,7 @@ export default class Home extends Component {
             infinite: true,
             centerPadding: "60px",
             slidesToShow: 3,
-            slidesToScroll: 1,
+            // slidesToScroll: 1,
             autoplay: true,
             speed: 500,
             cssEase: "linear",
@@ -99,6 +99,7 @@ export default class Home extends Component {
                                         <div>
                                             <BookBox />
                                         </div>
+                                       
                                     </Slider>
 
                                 </div>

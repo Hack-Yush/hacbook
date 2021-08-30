@@ -18,6 +18,10 @@
   font: normal 12px Tahoma,Geneva,sans-serif;
 }
 
+.box ul li:hover {
+  color: #bc3232;
+}
+
 .box h2{
   color: #bc3232;
   font-weight: normal;

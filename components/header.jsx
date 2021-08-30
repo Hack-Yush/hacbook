@@ -14,7 +14,7 @@ import React from "react";
 // styles
 import HS from "../styles/components/header.module.css";
 // logo
-const logo = '/logo/bookLogo.png'
+const logo = '/logo/logo.png'
 
 export const Header = () => {
 
