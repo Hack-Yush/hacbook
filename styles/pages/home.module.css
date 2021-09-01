@@ -14,7 +14,7 @@
     top: 140px;
     height: auto;
     width:100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex; 
     justify-content: center
 }

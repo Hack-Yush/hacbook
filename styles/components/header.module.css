@@ -1,7 +1,7 @@
 /* header component */
 
 .header {
-  height: 140px;
+  height: 123px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   z-index: 10;
 }
 .upperHeader {
-  height: 100px;
+  height: 78px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -26,8 +26,8 @@
 .logo {
   position: relative;
   left: 300px;
-  height: 80px;
-  width: 90px;
+  height: 69px;
+  /* width: 90px; */
 }
 .search {
   position: relative;
@@ -139,9 +139,9 @@ cursor: pointer;
 
 
 .bottomHeader {
-  height: 40px;
+  height: 45px;
   width: 100%;
-  background: rgb(22, 22, 22);
+  background: #221e1f;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -171,6 +171,9 @@ cursor: pointer;
   /* border: 1px solid red; */
   cursor: pointer;
 }
+
+
+
 
 .homeimg {
   border: none !important;

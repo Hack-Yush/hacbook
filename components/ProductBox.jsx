@@ -23,7 +23,7 @@ export const ProductBox = () => {
         </div>
 
 
-        <div class={PB.author_publisher}> <strong>By:</strong><a href="https://www.bookswagon.com/author/zane-williams">Zane Williams</a>,
+        <div className={PB.author_publisher}> <strong>By:</strong><a href="https://www.bookswagon.com/author/zane-williams">Zane Williams</a>,
           <a href="https://www.bookswagon.com/author/jeff-stokes">Jeff Stokes</a>, <a href="https://www.bookswagon.com/author/manuel-singer">Manuel Singer</a>,
           <a href="https://www.bookswagon.com/author/richard-diver">Richard Diver</a>
         </div>

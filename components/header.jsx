@@ -11,6 +11,10 @@ const home = '/icons/home-img.png'
 // hooks
 import React from "react";
 
+
+import Link from "next/link";
+
+
 // styles
 import HS from "../styles/components/header.module.css";
 // logo
@@ -53,13 +57,37 @@ export const Header = () => {
             </div>
             <div className={HS.bottomHeader}>
                 <div className={HS.bottomHeaderNav}>
-                    <div className = {HS.homeimg}><img src={home} /></div>
+                    <Link href="home">
+                        <div>
+                            <img src={home} />
+                        </div>
+                    </Link>
                     <div>Books</div>
-                    <div>New Arrivals</div>
-                    <div>Pre-Order</div>
-                    <div>Bestsellers</div>
-                    <div>TextBooks</div>
-                    <div>Award Winners</div>
+                    <Link href="newarrivals">
+                        <div>
+                            New Arrivals
+                        </div>
+                    </Link>
+                    <Link href=" PreOrder">
+                        <div>
+                            Pre-Order
+                        </div>
+                    </Link>
+                    <Link href=" BestSeller">
+                        <div>
+                            BestSeller
+                        </div>
+                    </Link>
+                    <Link href="TextBook">
+                        <div>
+                            TextBook
+                        </div>
+                    </Link>
+                    <Link href="AwardWinners">
+                        <div>
+                            Award Winners
+                        </div>
+                    </Link>
                     <div>Featured Authors</div>
                 </div>
                 <div className={HS.currency}>
