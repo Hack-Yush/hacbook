@@ -49,21 +49,18 @@ export const Header = () => {
                 <div className={HS.cart}>
 
                     <img src={cartimg} />
-                    <div>
-                        0
-                    </div>
-
-                </div>
+          <div>0</div>
+        </div>
+      </div>
+      <div className={HS.bottomHeader}>
+        <div className={HS.bottomHeaderNav}>
+          <Link href="home">
+            <div>
+              <img src={home} />
             </div>
-            <div className={HS.bottomHeader}>
-                <div className={HS.bottomHeaderNav}>
-                    <Link href="home">
-                        <div>
-                            <img src={home} />
-                        </div>
-                    </Link>
-                    <div>Books</div>
-                    <Link href="newarrivals">
+          </Link>
+            <div>Books</div>
+          <Link href="newarrivals">
                         <div>
                             New Arrivals
                         </div>
