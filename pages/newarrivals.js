@@ -17,11 +17,8 @@ import { CategoryBox } from "../components/CategoryBox";
 const NewArrivals = () => {
   return (
     <div className={NA.newarrivals}>\
-
-
       {/* header */}
       <Header />
-
 
       {/* mainbody */}
       <div className={NA.mainbox}>
