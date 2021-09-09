@@ -76,11 +76,9 @@ export const Header = () => {
                         </div>
                     </Link>
                     <Link href="TextBook">
-                        <div>
-                            TextBook
-                        </div>
-                    </Link>
-                    <Link href="AwardWinners">
+            <div>TextBook</div>
+          </Link>
+          <Link href="AwardWinners">
                         <div>
                             Award Winners
                         </div>
